@@ -205,7 +205,7 @@ function djk_algo(hold_grid, start_node, fin_node){ // notice not passing props 
 
 function App() {
 
-  let [hola, setHola] = useState("Shortest Path using Dijkstra's Algorithm");
+  let [hola, setHola] = useState("Shortest path using Dijkstra's Algorithm");
   const [reset,setReset]=useState(true);
   const [start_end, setStart_end]= useState(Array(2).fill(false));//start_end[0] indicates 'start' , [1] indicates 'end'
 
@@ -431,7 +431,7 @@ function App() {
         </h1>
 
         <h1 className="text-xl my-1">
-        To draw walls, press 'Draw Wall' then click and drag on the grid.
+        To add walls, press Draw Wall then click and drag on the grid.
         </h1>
 
       
