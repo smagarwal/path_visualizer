@@ -19,8 +19,8 @@ Visit [https://smagarwal.github.io/path_visualizer/](https://smagarwal.github.io
 
 ## Features
 
-- **Dijkstra's Algorithm:** Utilizes Dijkstra's Algorithm to find the shortest path between the selected Start and End nodes.
-- **Priority Queue:** Implemented priority queue in Javascript, being used by the algorithm
+- **Dijkstra's Algorithm:** Utilizes Dijkstra's Algorithm to find the shortest path between the selected Start and End nodes. [Implementation code](/src/App.jsx)
+- **Priority Queue:** Implemented priority queue in Javascript, being used by the algorithm.  [Implementation code](/lib/ts_priority_queue.js)
 - **Interactive Grid:** Click to set Start and End nodes, and draw walls to customize the environment.
 - **Visualization:** Watch as the algorithm visualizes its exploration and identifies the shortest path.
 - **Clear Grid:** Start fresh by clearing the grid with the "Reset" button.
